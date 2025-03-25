@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*-----------------------  First index page -------------------------*/
+
+
+.navbar-nav li a{
+    color:rgba(14, 29, 112, 0.685)!important;
+    float: right;
+    text-align: left;
+}
+
+
+
+.redback{
+   position: absolute;
+   top: 0;
+   left: 75%; 
+}
+
+.CASHLESS{
+    z-index: 5;
+} 
+
+
+/*-------------------------------- media query --------------------------------*/
+
+@media screen and (max-width:576px)
+{
+    .redwallet{
+        width: 100%;
+        height: 50vh;
+    }    
+
+    .go{
+    display: flex;
+    }
+}
